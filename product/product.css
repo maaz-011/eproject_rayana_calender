@@ -1,0 +1,274 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* body */
+.bg{
+  background-color: beige;
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Responsive spacing and layout */
+@media (min-width: 768px) {
+  body {
+    padding: 2rem;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 3rem;
+    font-size: 18px;
+  }
+}
+
+/* navbar */
+.navbar {
+  background-color: #C9B194;
+  border-radius: 7px;
+}
+
+.navbar ul {
+  overflow: auto;
+}
+
+.navbar li {
+  float: left;
+  list-style: none;
+  margin: 13px 14px;
+  text-align: center;
+}
+
+.navbar li a {
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.navbar li a:hover {
+  color: #947e5b;
+  font-weight: bold;
+}
+
+/* banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+}
+
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.banner-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.banner-content {
+  position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  padding: 0 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.banner-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #a08963;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.banner-button:hover {
+  background-color: #c9b194;
+  color: white;
+}
+
+/* Responsive tweaks */
+@media (min-width: 768px) {
+  .banner {
+    height: 80vh;
+  }
+
+  .banner-content h1 {
+    font-size: 3.5rem;
+  }
+
+  .banner-content p {
+    font-size: 1.5rem;
+  }
+}
+
+
+/* tab content */
+.tab-content {
+    display: none;
+  }
+  input[name="tabs"]:checked + label {
+    background-color: #A08963; /* Tailwind's blue-600 */
+    color: white;
+  }
+  #tab1:checked ~ .content #content1,
+  #tab2:checked ~ .content #content2,
+  #tab3:checked ~ .content #content3 {
+    display: block;
+  }
+
+  .ip {
+    font-size: 20px;
+    color: white;
+    background-color: #A08963;
+    border-radius: 8px;
+    padding: 4px;
+  }
+
+  .ip:hover {
+    background-color: #C9B194;
+    font-style: italic;
+    font-size: larger;
+  }
+
+  .div1 {
+    display: flex;
+    justify-content: center;
+  }
+/* heading */
+.h2 {
+    color: #a08963;
+    font-size: 30px;
+}
+
+.h2:hover {
+    color: #c9b194;
+    font-weight: bold;
+}
+
+/* product cards */
+.card {
+    border: 2px solid #a08963;
+    background: white;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 12px;
+  }
+  .card:hover {
+    border:3px solid #c9b194;
+  }
+
+  @media (min-width: 550px) {
+    .card{
+      font-size: 18px;
+    }
+  }
+
+  @media (min-width: 990px) {
+    .card{
+      font-size: 20px;
+    }
+  }
+
+  .button {
+    background-color: #a08963;
+    color: white;
+  }
+
+  .button:hover {
+    background-color: #c9b194;
+    color: white;
+  }
+
+ /* modal */
+  .btn1{
+    background-color: #a08963;
+    color: white;
+  }
+
+  .btn1:hover{
+    background-color: #c9b194;
+  }
+
+  .modal-dialog {
+    border: 2px solid #a08963;
+    border-radius: 8px;
+  }
+
+  .modal-title {
+    color:#a08963 ;
+  }  
+
+  .modal-title:hover {
+    color: #c9b194;
+    font-weight: bold
+  }
+
+  .para {
+    font-size: large;
+    text-align: justify ;
+  }
+
+  /* footer styling */
+.heading{
+  color: #A08963;
+  font-size: larger;
+}
+
+.heading:hover{
+  color: #C9B194;
+  font-weight: bold;
+}
+
+.text{
+  text-decoration: none;
+  color: black;
+}
+
+.text:hover{
+  text-decoration: underline;
+}
+
+.text2{
+  color: black;
+}
+
+.text2:hover{
+  text-decoration: underline;
+}
+
+.icon{
+  color: #A08963;
+}
+
+.icon:hover{
+  color: #C9B194;
+  font-size: larger;
+}

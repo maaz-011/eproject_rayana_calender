@@ -1,0 +1,275 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    line-height: 1.6;
+    background-color: beige;
+    font-family: "Exo 2", sans-serif;
+}
+
+/* navbar */
+.logo {
+    margin: 10px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.navbar {
+    background-color: #C9B194;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: left;
+    list-style: none;
+    margin: 13px 14px;
+    text-align: center;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar li a:hover {
+    color: #947e5b;
+    font-weight: bold;
+}
+/* Hero Section */
+.hero-wrap {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-wrap .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-wrap .container {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-wrap .breadcrumbs {
+    color: #A08963;
+    font-size: 16px;
+}
+
+.hero-wrap h2 {
+    color: #A08963;
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.banner-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #A08963;
+}
+
+.banner-content h1:hover {
+    color: #C9B194;
+    font-weight: bold;
+
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 9px;
+    background-color: #a08963;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button:hover {
+    background-color: #c9b194;
+    color: white;
+  }
+
+.p1 {
+    text-align: justify;
+}
+/* Contact Information Section */
+.contact-title h4 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #A08963;
+}
+
+.contact-title p {
+    font-size: 17px;
+    color: #555;
+    justify-content: center;
+    text-align: start;
+}
+
+.contact-info h3 {
+    font-size: 25px;
+    font-style: normal ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #A08963;
+}
+.contact-info p{
+    font-size: 17px;
+    color: #555;
+}
+
+/* Contact Item Styling */
+.item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item .icon {
+    font-size: 30px;
+    font-style: normal;
+    color: #A08963;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+}
+
+.item .text h5 {
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #A08963;
+}
+
+.item .text p {
+    font-size: 18px;
+    font-style: normal;
+    justify-content: center;
+    color: #555;
+}
+button{
+    width: 40%;
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #A08963;
+    color: #555;
+    font-size: 18px;
+    font-style: normal;
+    border: 2px solid ;
+    border-radius: 25px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    border-color: 2px solid white; 
+    background-color:#c9b194 ; 
+    color: #A08963;
+}
+.item .icon:hover {
+    color: #c9b194; 
+    transform: scale(1.2); 
+}
+/* Hover Effects for Headings */
+h2:hover, h3:hover, h4:hover, h5:hover {
+    color: #c9b194; 
+    transform: translateY(-5px);
+}
+
+/* Optional: Add focus style for accessibility */
+h2:focus, h3:focus, h4:focus, h5:focus {
+    outline: none;
+    box-shadow: 0 4px 8px #bbb; 
+}
+/* Map Styling */
+.map-inner iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+/* footer styling */
+.heading{
+    color: #A08963;
+    font-size: larger;
+}
+
+.heading:hover{
+    color: #C9B194;
+}
+
+.text{
+    text-decoration: none;
+    color: black;
+}
+
+.text:hover{
+    text-decoration: underline;
+}
+
+.text2{
+    color: black;
+}
+
+.text2:hover{
+    text-decoration: underline;
+}
+
+.icon{
+    color: #A08963;
+}
+
+.icon:hover{
+    color: #C9B194;
+    font-size: larger;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+
+   
+    .hero-wrap {
+        padding: 70px 0;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+    }
+
+    .contact-info div {
+        margin-bottom: 20px;
+    }
+
+    .contact-wrapper {
+        padding: 20px;
+    }
+
+    .map-inner iframe {
+        height: 250px;
+    }
+}

@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product page</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- CSS link -->
+     <link rel="stylesheet" href="product.css">
+
+     <!-- favicon -->
+     <link rel="icon" type="image/x-icon" href="/images/favicon.ico.png">
+     
+  </head>
+<body class="bg">
+  <header class="">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <!-- Logo -->
+        <a class="navbar-brand" href="/">
+          <img src="../images/ryana calendars.png" alt="logo" height="70" width="120" class="logo">
+        </a>
+
+        <!-- Toggle Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+          </span>
+        </button>
+
+        <!-- Navbar Links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="/index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/aboutUs/index.html">About us</a></li>
+            <li class="nav-item"><a class="nav-link" href="/product/index.html">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="/contactUs/index.html">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- banner -->
+  <div class="banner">
+    <img src="images/eric-rothermel-FoKO4DpXamQ-unsplash.jpg" alt="Banner background" height="200px" width="400px" class="banner-img" />
+    <div class="banner-overlay"></div>
+    <div class="banner-content">
+      <h1>Products</h1>
+      <a href="/index.html" class="banner-button">Home></a>
+      <a href="#" class="banner-button">Product></a>
+    </div>
+  </div>
+  <!-- Radio Buttons (Hidden) -->
+<input type="radio" name="tabs" id="tab1" hidden checked>
+<input type="radio" name="tabs" id="tab2" hidden>
+<input type="radio" name="tabs" id="tab3" hidden>
+
+<!-- Toggle Buttons -->
+<div class="flex gap-4 mb-4 mt-4 div1">
+  <label for="tab1" class="ip">Journals</label>
+  <label for="tab2" class="ip">Planners</label>
+  <label for="tab3" class="ip">Calendars</label>
+</div>
+
+
+    <section class="content">
+      <div class="content mt-4">
+        <h2 class="tab-content text-center h2" id="content1">A Thoughtfully Selected Range of Journals</h2>
+      </div>  
+    <!-- Tab Content -->
+     <!-- Journals start-->
+        <div id="content1" class="tab-content">
+            <div class="row mt-4">
+              <!-- Card 1 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Diary1.jpg" class="card-img-top" height="400px" width="400px" alt="diary">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>VINTAGE DIARY</strong></h5>
+                          <p class="card-text">Price:  <strong>Rs.999</strong></p>
+                          <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                            View Details
+                          </button>
+
+
+                          <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title"><strong>VINTAGE DIARY</strong></h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="images/Diary1.jpg" alt="diary" height="400px" width="400px">
+                                  <p class="text-justify para"><strong>Description:</strong>
+                                  Elegant and timeless, this vintage diary is designed for those who cherish the beauty of handwritten words. Bound in classic faux leather with aged-style pages, it offers a nostalgic charm that turns everyday journaling into a meaningful ritual. Perfect for capturing thoughts, dreams, and memories that deserve to be preserved.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn1"><a href="documents/Diary.docx1.docx" download="Diary.docx1.docx">Download</a></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Diary2.webp" class="card-img-top" height="400px" width="400px" alt="diary">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>GALAXY CLUSTER DIARY</strong></h5>
+                          <p class="card-text">Price:  <strong>Rs.899</strong></p>
+                          <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            View Details
+                          </button>
+
+                          <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel2" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title"><strong>GALAXY CLUSTER DIARY</strong></h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="images/Diary2.webp" alt="diary" height="400px" width="400px">
+                                  <p class="text-justify para"><strong>Description:</strong>
+                                  Inspired by the wonders of the cosmos, this galaxy cluster diary captures the beauty of deep space on every page. With a mesmerizing celestial cover and smooth, high-quality paper, it’s perfect for stargazers, dreamers, and thinkers alike. Whether you're journaling thoughts, sketching constellations, or mapping your own universe, this diary is your portal to the stars.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn1"><a href="documents/Diary.docx2.docx" download="Diary.docx2.docx">Download</a></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/notebook2.webp" class="card-img-top" height="380px" width="380px" alt="notebook">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>LEATHER COVER NOTEBOOK</strong></h5>
+                          <p class="card-text">Price:  <strong>Rs.650</strong></p>
+                          <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            View Details
+                          </button>
+
+                          <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel3" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title"><strong>LEATHER COVER NOTEBOOK</strong></h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="images/notebook2.webp" alt="notebook" height="400px" width="400px">
+                                  <p class="text-justify para"><strong>Description:</strong>
+                                  This leather cover notebook combines timeless elegance with practicality. Its durable leather exterior and smooth, high-quality pages are perfect for writing or sketching. Ideal for those who appreciate classic craftsmanship and style.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn1"><a href="documents/Notebook2.docx" download="Notebook2.docx">Download</a></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="card" style="width: 18rem;">
+                        <img src="images/Diary3.jpg" class="card-img-top" height="400px" width="400px" alt="diary">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>UNLINED DIARY</strong></h5>
+                          <p class="card-text">Price:  <strong>Rs.650</strong></p>
+                          <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            View Details
+                          </button>
+
+                          <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel4" aria-hidden="true">
+                            <div class="modal-dialog">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title"><strong>UNLINED DIARY</strong></h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                  <img src="images/Diary3.jpg" alt="diary" height="400px" width="400px">
+                                  <p class="text-justify para"><strong>Description:</strong>
+                                  This unlined diary offers a blank canvas for your creativity. Perfect for writing, sketching, or journaling without boundaries. Its simple design allows your imagination to flow freely.</p>
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn1"><a href="documents/Unlined diary3.docx" download="Unlined diary3.docx">Download</a></button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+          <div class="row mt-4">
+            <!-- Card 5 -->
+              <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                  <img src="images/notebook1.jpg" class="card-img-top" height="400px" width="400px" alt="notebook">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>A7 NOTEBOOK</strong></h5>
+                    <p class="card-text">Price:  <strong>Rs.459</strong></p>
+                    <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                      View Details
+                    </button>
+
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel5" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>A7 NOTEBOOK</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/notebook1.jpg" alt="notebbok" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                            Compact and portable, this A7 notebook is perfect for on-the-go notes, sketches, or ideas. With its sleek size and durable cover, it fits easily into pockets or bags, making it an ideal companion for travelers, students, or creatives. Keep your thoughts organized wherever you are.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/A7 notebook.docx" download="A7 notebook.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 6 -->
+              <div class="col-lg-3 col-md-6">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/notebook3.jpg" class="card-img-top" height="400px" width="400px" alt="planner">
+                    <div class="card-body">
+                      <h5 class="card-title"><strong>2025 MINI PLANNER</strong></h5>
+                      <p class="card-text">Price:  <strong>Rs.455</strong></p>
+                      <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                        View Details
+                      </button>
+
+                      <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel6" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>2025 MINI PLANNER</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/notebook3.jpg" alt="planner" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                              This 2025 mini planner is perfect for staying organized on the go. Compact and stylish, it fits easily into bags or pockets. Plan your year with ease and keep track of your goals, appointments, and reminders.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/2025 mini planner.docx" download="2025 mini planner.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col-lg-3 col-md-6">
+              <div class="card" style="width: 18rem;">
+                  <img src="images/Diary4.png" class="card-img-top" height="400px" width="400px" alt="diary">
+                  <div class="card-body">
+                    <h5 class="card-title"><strong>PORTABLE DIARY</strong></h5>
+                    <p class="card-text">Price:  <strong>Rs.749</strong></p>
+                    <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                      View Details
+                    </button>
+
+                    <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel7" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>PORTABLE DIARY</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/Diary4.png" alt="diary" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                            This cute portable diary is perfect for jotting down thoughts on the go. Its compact size and charming design make it an ideal travel companion. Keep your ideas and memories close with this adorable, functional diary.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Diary.docx4.docx" download="Diary.docx4.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- journals end -->
+    </section>
+
+
+  <section class="content">
+    <div class="content mt-4">
+      <h2 class="tab-content text-center h2" id="content2">Stay Organized with Our Premium Planners</h2>
+    </div>  
+    <!-- Planners start -->
+    <div id="content2" class="tab-content">
+     <div class="row mt-4">
+      <!-- Card 1 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner1.jpg" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>PRINTABLE HOURLY PLANNER</strong></h5>
+            <p class="card-text">Price:  <strong>Rs.559</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal8">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel8" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>PRINTABLE HOURLY PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner1.jpg" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              Stay organized with this printable hourly planner. It divides your day into clear, manageable time blocks for efficient scheduling. Print and customize it to fit your daily routine and maximize productivity.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Hourly planner.docx1.docx" download="Hourly planner.docx1.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner2.webp" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>SUBTLE COVER UNDATED PLANNER</strong></h5>
+            <p class="card-text">Price:  <strong>Rs.1200</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal9">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel9" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>SUBTLE COVER UNDATED PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner2.webp" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              This subtle cover planner offers a minimalist design with maximum functionality. Perfect for organizing daily, weekly, and monthly tasks. Stay on top of your goals with its sleek and elegant layout.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Undated planner.docx1.docx" download="Undated planner.docx1.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner3.webp" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>ORGANIZELT WORK PLANNER</strong></h5>
+            <p class="card-text">Price:  <strong>Rs.700</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal10">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel10" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>ORGANIZELT WORK PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner3.webp" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              Stay organized and productive with the OrganizeIt Work Planner. It features daily priorities, project tracking, and meeting notes. Perfect for professionals who want to stay focused and on top of their tasks.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Hourly planner.docx3.docx" download="Hourly planner.docx3.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 4 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner4.webp" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>PEPERIAN SPIRAL PLANNER</strong></h5>
+            <p class="card-text">Price: <strong>Rs.1199</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal11">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel11" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>PEPERIAN SPIRAL PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner4.webp" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              The Peperian Spiral Planner offers a stylish and functional way to stay organized. With spacious pages for daily, weekly, and monthly planning, it's perfect for managing tasks and appointments. Stay on top of your goals with this durable, easy-to-use planner.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Undated planner.docx4.docx" download="Undated planner.docx4.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+
+      </div>
+     </div>
+
+     <div class="row mt-4">
+       <!--Card 5  -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner5.jpeg" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>ONE DAY PLANNER</strong></h5>
+            <p class="card-text">Price: <strong>Rs.549</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal12">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel12" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>ONE DAY PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner5.jpeg" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              The One Day Planner helps you organize your day with ease. It features sections for priorities, tasks, and appointments. Perfect for staying focused and making each day productive.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Hourly planner.docx4.docx" download="Hourly planner.docx4.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+        
+      </div>
+
+      <!-- Card 6 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner6.jpg" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>MINIMALIST PLANNER</strong></h5>
+            <p class="card-text">Price: <strong>Rs.1000</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal13">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel13" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>MINIMALIST PLANNER</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner6.jpg" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              The Minimalist Black Planner offers a sleek, simple design for clear organization. With its clean layout, it's perfect for staying focused and productive. Ideal for those who appreciate a minimalist approach to planning.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Undated planner.docx2.docx" download="Undated planner.docx2.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Card 7 -->
+      <div class="col-lg-3 col-md-6">
+
+        <div class="card" style="width: 18rem;">
+          <img src="images/planner7.webp" class="card-img-top" height="400px" width="400px" alt="planner">
+          <div class="card-body">
+            <h5 class="card-title"><strong>ROUTINE LOG</strong></h5>
+            <p class="card-text">Price: <strong>Rs.600</strong></p>
+            <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal14">
+              View Details
+            </button>
+            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel14" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title"><strong>ROUTINE LOG</strong></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/planner7.webp" alt="planner" height="400px" width="400px">
+                            <p class="text-justify para"><strong>Description:</strong>
+                              The Routine Log helps you track daily habits and progress. It offers organized sections to stay focused on your goals. Perfect for building consistency and accountability in your routine.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn1"><a href="documents/Hourly planner.docx2.docx" download="Hourly planner.docx2.docx">Download</a></button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+          </div>
+        </div>
+        
+      </div>
+     </div>
+    </div> 
+    <!-- Planners end -->
+  </section>
+
+  <section class="content">
+    <div class="content mt-4">
+      <h2 class="tab-content text-center h2" id="content3">Browse Our Range of Stylish Calendars</h2>
+    </div> 
+    <!-- Calendars start -->
+    <div id="content3" class="tab-content">
+
+      <!-- desk calendars -->
+      <div class="row mt-4">
+        <!-- card 1 -->
+        <div class="col-lg-3 col-md-6">
+          
+          <div class="card" style="width: 18rem;">
+            <img src="images/desk calendar1.webp" class="card-img-top" height="400px" width="400px" alt="desk calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>DIY DESK CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.499</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel15" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>DIY DESK CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/desk calendar1.webp" alt="desk calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This DIY Desk Calendar lets you personalize each month with your own style. Perfect for organizing your schedule while adding a creative touch to your workspace. A fun and functional way to plan your year, your way.                                
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Docx1.docx" download="Docx1.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/desk calendar3.jpg" class="card-img-top" height="400px" width="400px" alt="desk calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>MINI DESK CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.549</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel16" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>MINI DESK CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/desk calendar3.jpg" alt="desk calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This mini and pastel desk calendar adds a soft, charming touch to your workspace. Compact and stylish, it's perfect for quick date checks and daily planning. A cute and functional accessory for any desk.                                
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Desk.docx2.docx" download="Desk.docx2.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/deskcalendar2.jpg" class="card-img-top" height="400px" width="400px" alt="desk calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>WOODEN DESK CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.1599</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal17">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal17" tabindex="-1" aria-labelledby="exampleModalLabel17" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>WOODEN DESK CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/deskcalendar2.jpg" alt="desk calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This wooden desk calendar brings a natural, rustic charm to your workspace. Reusable and eco-friendly, it's both stylish and sustainable. A timeless piece that keeps you organized year-round.                                
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Docx3.docx" download="Docx3.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 4 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/deskcalendar4.jpg" class="card-img-top" height="380px" width="380px" alt="desk calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>CAT THEMED DESK CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.1899</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal18">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal18" tabindex="-1" aria-labelledby="exampleModalLabel18" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>CAT THEMED DESK CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/deskcalendar4.jpg" alt="desk calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This cat-themed desk calendar adds a playful touch to your daily planning. Featuring adorable feline illustrations, it’s perfect for cat lovers. Stay organized with a smile all year long.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Desk.docx4.docx" download="Desk.docx4.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+     <!-- wall calendars -->
+      <div class="row mt-4">
+
+        <!-- card 5 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/wall calendar1.webp" class="card-img-top" height="400px" width="400px" alt="wall calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>FRAME WALL CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.1999</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal19">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal19" tabindex="-1" aria-labelledby="exampleModalLabel19" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>FRAME WALL CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/wall calendar1.webp" alt="wall calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This frame wall calendar blends function with décor, offering a stylish way to track your months. Its sleek design fits beautifully in any room or office. Stay organized while adding a touch of elegance to your wall.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Wall.docx6.docx" download="Wall.docx6.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 6 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/wall calendar2.jpg" class="card-img-top" height="400px" width="400px" alt="wall calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>ACRYLIC WALL CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.2199</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal20">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal20" tabindex="-1" aria-labelledby="exampleModalLabel20" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>ACRYLIC WALL CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/wall calendar2.jpg" alt="wall calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This acrylic wall calendar offers a modern, sleek way to organize your schedule. Reusable and easy to write on, it’s perfect for planning months at a glance. A stylish addition to any home or office space.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Wall.docx5.docx" download="Wall.docx5.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                     </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 7 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/wall calendar3.png" class="card-img-top" height="400px" width="400px" alt="wall calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>FLORAL WALL CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong><Rs class="1500"></Rs></strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal21">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal21" tabindex="-1" aria-labelledby="exampleModalLabel21" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>FLORAL WALL CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/wall calendar3.png" alt="wall calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This floral wall calendar brightens up your space with beautiful botanical designs. Each month features charming artwork alongside practical date layouts. A perfect blend of organization and elegance for your wall.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Wall.docx7.docx" download="Wall.docx7.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- card 8 -->
+        <div class="col-lg-3 col-md-6">
+
+          <div class="card" style="width: 18rem;">
+            <img src="images/wall calendar4.webp" class="card-img-top" height="400px" width="400px" alt="wall calendar">
+            <div class="card-body">
+              <h5 class="card-title"><strong>POSTER WALL CALENDAR</strong></h5>
+              <p class="card-text">Price: <strong>Rs.2200</strong></p>
+              <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal22">
+                View Details
+              </button>
+              <div class="modal fade" id="exampleModal22" tabindex="-1" aria-labelledby="exampleModalLabel22" aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title"><strong>POSTER WALL CALENDAR</strong></h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <img src="images/wall calendar4.webp" alt="wall calendar" height="400px" width="400px">
+                              <p class="text-justify para"><strong>Description:</strong>
+                                This poster wall calendar offers a bold, oversized view of your entire year at a glance. Perfect for planning big events and tracking goals in style. A functional statement piece for any room or workspace.
+                              </p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn1"><a href="documents/Wall.docx7.docx" download="Wall.docx7.docx">Download</a></button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+
+      <!-- sticker calendars -->
+      <div id="content3" class="tab-content">
+        <!-- sticker calendars -->
+        <div class="row mt-4">
+       
+         <!-- card 9 -->
+         <div class="col-lg-3 col-md-6">
+       
+           <div class="card" style="width: 18rem;">
+             <img src="images/sticker calendar1.jpg" class="card-img-top" height="380px" width="380px" alt="sticker calendar">
+             <div class="card-body">
+               <h5 class="card-title"><strong>AESTHETIC STICKER CALENDAR</strong></h5>
+               <p class="card-text">Price: <strong>Rs.500</strong></p>
+               <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal23">
+                 View Details
+               </button>
+               <div class="modal fade" id="exampleModal23" tabindex="-1" aria-labelledby="exampleModalLabel23" aria-hidden="true">
+                         <div class="modal-dialog">
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <h5 class="modal-title"><strong>AESTHETIC STICKER CALENDAR</strong></h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                               <img src="images/sticker calendar1.jpg" alt="sticker calendar" height="400px" width="400px">
+                               <p class="text-justify para"><strong>Description:</strong>
+                                 This aesthetic sticker calendar adds a fun, creative twist to planning your year. With beautifully designed stickers and a stylish layout, organizing has never looked better. Perfect for personalizing your schedule with charm and flair.
+                               </p>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               <button type="button" class="btn btn1"><a href="documents/Docx10.docx" download="Docx10.docx">Download</a></button>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+             </div>
+           </div>
+         </div>
+       
+         <!-- card 10 -->
+         <div class="col-lg-3 col-md-6">
+       
+           <div class="card" style="width: 18rem;">
+             <img src="images/sticker calendar2.jpg" class="card-img-top" height="400px" width="400px" alt="sticker calendar">
+             <div class="card-body">
+               <h5 class="card-title"><strong>CUTE STICKER CALENDAR</strong></h5>
+               <p class="card-text">Price: <strong>Rs.399</strong></p>
+               <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal24">
+                 View Details
+               </button>
+               <div class="modal fade" id="exampleModal24" tabindex="-1" aria-labelledby="exampleModalLabel24" aria-hidden="true">
+                         <div class="modal-dialog">
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <h5 class="modal-title"><strong>CUTE STICKER CALENDAR</strong></h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                               <img src="images/sticker calendar2.jpg" alt="sticker calendar" height="400px" width="400px">
+                               <p class="text-justify para"><strong>Description:</strong>
+                                 This cute sticker calendar makes planning fun and playful with adorable, themed stickers. Perfect for adding personality to your schedule and staying organized. A delightful way to brighten up your daily planning routine.
+                               </p>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               <button type="button" class="btn btn1"><a href="documents/Docx9.docx" download="Docx9.docx">Download</a></button>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+             </div>
+           </div>
+         </div>
+       
+         <!-- card 11 -->
+         <div class="col-lg-3 col-md-6">
+       
+           <div class="card" style="width: 18rem;">
+             <img src="images/sticker calendar3.webp" class="card-img-top" height="400px" width="400px" alt="sticker calendar">
+             <div class="card-body">
+               <h5 class="card-title"><strong>BOHO STICKER CALENDAR</strong></h5>
+               <p class="card-text">Price: <strong>Rs.650</strong></p>
+               <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal25">
+                 View Details
+               </button>
+               <div class="modal fade" id="exampleModal25" tabindex="-1" aria-labelledby="exampleModalLabel25" aria-hidden="true">
+                         <div class="modal-dialog">
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <h5 class="modal-title"><strong>BOHO STICKER CALENDAR</strong></h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                               <img src="images/sticker calendar3.webp" alt="sticker calendar" height="400px" width="400px">
+                               <p class="text-justify para"><strong>Description:</strong>
+                                 This boho sticker calendar brings a touch of free-spirited charm to your year. With unique, earthy designs and vibrant stickers, it adds personality to your daily planning. Perfect for those who love blending style and organization.
+                               </p>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               <button type="button" class="btn btn1"><a href="documents/BOHO STICKER CALENDAR.docx" download="BOHO STICKER CALENDAR.docx">Download</a></button>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+             </div>
+           </div>
+         </div>
+       
+         <!-- card 12 -->
+         <div class="col-lg-3 col-md-6">
+       
+           <div class="card" style="width: 18rem;">
+             <img src="images/sticker calendar4.webp" class="card-img-top" height="380px" width="380px" alt="sticker calendar">
+             <div class="card-body">
+               <h5 class="card-title"><strong>COLORFUL STICKER CALENDAR</strong></h5>
+               <p class="card-text">Price: <strong>Rs.559</strong></p>
+               <button type="button" class="btn button" data-bs-toggle="modal" data-bs-target="#exampleModal26">
+                 View Details
+               </button>
+               <div class="modal fade" id="exampleModal26" tabindex="-1" aria-labelledby="exampleModalLabel26" aria-hidden="true">
+                         <div class="modal-dialog">
+                           <div class="modal-content">
+                             <div class="modal-header">
+                               <h5 class="modal-title"><strong>COLORFUL STICKER CALENDAR</strong></h5>
+                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                             </div>
+                             <div class="modal-body">
+                               <img src="images/sticker calendar4.webp" alt="sticker calendar" height="400px" width="400px">
+                               <p class="text-justify para"><strong>Description:</strong>
+                                 This colorful sticker calendar brightens your planning with vibrant, fun designs. Filled with playful stickers, it adds a pop of color and creativity to your schedule. Perfect for organizing your year with joy and style.
+                               </p>
+                             </div>
+                             <div class="modal-footer">
+                               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                               <button type="button" class="btn btn1"><a href="documents/COLORFUL STICKER.docx" download="COLORFUL STICKER.docx">Download</a></button>
+                             </div>
+                           </div>
+                         </div>
+                       </div>
+             </div>
+           </div>
+         </div>
+        </div>
+       </div> 
+    
+    
+    
+     <!-- Calendars end -->
+  </section>
+
+  <!-- bootstrap link -->
+
+  <!-- Footer -->
+  <footer class="footer mt-5 p-3 text-center">
+    <!-- Footer -->
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+
+<!-- Section: Links  -->
+<section class="">
+  <div class="container text-center text-md-start mt-5">
+    <!-- Grid row -->
+    <div class="row mt-3 footer-bg">
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+        <!-- Content -->
+        <h6 class="text-uppercase fw-bold mb-4 footer-bg heading">
+          <i class="fas fa-gem me-3 mt-5"></i>Company name
+        </h6>
+        <p class="text">
+            © 2025 Copyright: Ryana Calendars
+     
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 footer-bg">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4 heading mt-5">
+          Information
+        </h6>
+        <p>
+          <a href="/contactUs/index.html" class="text-reset text">Company</a>
+        </p>
+        <p>
+          <a href="/aboutUs/index.html" class="text-reset text">About Us</a>
+        </p>
+        <p>
+          <a href="/contactUs/index.html" class="text-reset text">Contact Us</a>
+        </p>
+        <p>
+          <a href="/aboutUs/index.html" class="text-reset text">Our Team</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <!-- Links -->
+        <h6 class="text-uppercase fw-bold mb-4 heading mt-5">
+          Products
+        </h6>
+        <p>
+          <a href="/product/index.html" class="text-reset text">Calendars</a>
+        </p>
+        <p>
+          <a href="/product/index.html" class="text-reset text">Notebooks</a>
+        </p>
+        <p>
+          <a href="/index.html" class="text-reset text">In-demand Products</a>
+        </p>
+        <p>
+          <a href="/product/index.html" class="text-reset text">Journals</a>
+        </p>
+        <p>
+          <a href="/product/index.html" class="text-reset text">Planners</a>
+        </p>
+      </div>
+      <!-- Grid column -->
+    </div>
+    <!-- Grid row -->
+  </div>
+</section>
+<!-- Section: Links  -->
+</footer>
+<!-- Footer -->
+<!-- Section: Social media -->
+<section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+  <!-- Right -->
+  <div>
+    <a href="#" class="me-4 text-reset">
+      <i class="fab fa-facebook-f icon"></i>
+    </a>
+    <a href="#" class="me-4 text-reset">
+      <i class="fab fa-twitter icon"></i>
+    </a>
+    <a href="#" class="me-4 text-reset">
+      <i class="fab fa-google icon"></i>
+    </a>
+    <a href="#" class="me-4 text-reset">
+      <i class="fab fa-instagram icon"></i>
+    </a>
+    <a href="#" class="me-4 text-reset">
+      <i class="fab fa-linkedin icon"></i>
+    </a>
+    <a href="#" class="me-4 text-reset ">
+      <i class="fab fa-github icon"></i>
+    </a>
+  </div>
+  <!-- Right -->
+</section>
+<!-- Section: Social media -->
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
